@@ -6,8 +6,38 @@ namespace ToDoList.Tests
   [TestClass]
   public class ItemTests
   {
+    [TestMethod]
+    public void ItemConstructor_CreatesItems_Item()
+    {
+      Item newItem = new Item("test");
+      Assert.AreEqual(typeof(Item), newItem.GetType());
+    }
 
-    // Test methods will go here.
+    [TestMethod]
+    public void GetDescription_ReturnsDescription_String()
+    {
+      //Arrange
+      string description = "Walk the dog";
+      Item newItem = new Item(description);
+      //Act      
+      string result = newItem.Description;
+      //Assert
+      Assert.AreEqual(description, result);
+    }
 
+    [TestMethod]
+    public void SetDescription_SetsDescription_String()
+    {
+      //Arrange
+      string description = "Walk the dog";
+      Item newItem = new Item(description);
+      //Act
+      string updatedDescription = "Do the dishes";
+      newItem.Description = updatedDescription;
+      string result = newItem.Description;
+      //Assert
+      Assert.AreEqual(updatedDescription, result);
+    }
+    
   }
 }
