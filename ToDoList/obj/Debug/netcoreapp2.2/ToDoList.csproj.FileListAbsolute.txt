@@ -30,4 +30,5 @@ C:\Users\Owner\Epicodus\C#\home_work\ToDoList.Solution\ToDoList\obj\Debug\netcor
 C:\Users\Owner\Epicodus\C#\home_work\ToDoList.Solution\ToDoList\obj\Debug\netcoreapp2.2\ToDoList.dll
 C:\Users\Owner\Epicodus\C#\home_work\ToDoList.Solution\ToDoList\obj\Debug\netcoreapp2.2\ToDoList.pdb
 C:\Users\Owner\Epicodus\C#\home_work\ToDoList.Solution\ToDoList\obj\Debug\netcoreapp2.2\ToDoList.csproj.CopyComplete
-C:\Users\Owner\Epicodus\C#\home_work\ToDoList.Solution\ToDoList\obj\Debug\netcoreapp2.2\Razor\Views\Home\CreateForm.g.cshtml.cs
+C:\Users\Owner\Epicodus\C#\home_work\ToDoList.Solution\ToDoList\obj\Debug\netcoreapp2.2\Razor\Views\Items\CreateForm.g.cshtml.cs
+C:\Users\Owner\Epicodus\C#\home_work\ToDoList.Solution\ToDoList\obj\Debug\netcoreapp2.2\Razor\Views\Items\Index.g.cshtml.cs
